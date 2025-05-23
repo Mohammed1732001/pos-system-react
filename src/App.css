@@ -9,6 +9,14 @@ body {
   display: none !important;
 }
 
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #0d6efd !important; /* أو أي لون تحبه وقت الـ hover */
+  text-decoration: none;
+}
 
 
 /* login  */

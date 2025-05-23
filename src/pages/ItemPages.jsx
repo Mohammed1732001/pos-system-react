@@ -52,7 +52,8 @@ function MenuPage() {
     }
   }
 
-  const selectedItems = items.filter(item => item.category.name === selectedCategory);
+  const selectedItems = items.filter(item => item.category && item.category.name === selectedCategory);
+
 
   const addToOrder = (item) => {
     setOrder([...order, item]);
