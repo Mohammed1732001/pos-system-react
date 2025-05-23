@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(14, 13, 13);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hide-for-non-admin {
+  display: none !important;
+}
+
+
+
+/* login  */
+
+.login-body {
+  min-height: 100vh;
+  background-color: #000;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.signin-box {
+  background-color: #111;
+  width: 320px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.coffee-icon {
+  font-size: 48px;
+  color: #09c;
+}
+
+.input-custom {
+  background-color: #222;
+  border: 1px solid #09c;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.input-custom::placeholder {
+  color: #aaa;
+}
+
+.input-custom:focus {
+  background-color: #222;
+  border-color: #0077aa;
+  color: #fff;
+  box-shadow: none;
+}
+
+.btn-custom {
+  background-color: #09c;
+  border-radius: 6px;
+  font-size: 18px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-custom:hover {
+  background-color: #0077aa;
+  color: #fff;
+}
+
+
