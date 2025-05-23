@@ -178,18 +178,13 @@ function HomePages() {
                   <tr key={invoice._id}>
                     <td>{invoice._id}</td>
                     <td>{invoice?.orderId?.tableId?.tableNumber}</td>
-                    <td>
-                      {new Date(invoice.createdAt).toLocaleDateString("en-EG")}
-                    </td>
-
-
-                    <td>{invoice.finalAmount} </td>
+                    <td>{new Date(invoice.createdAt).toLocaleDateString("en-EG")}</td>
+                    <td>{invoice.finalAmount}</td>
                     <td>{invoice.paymentMethod}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
-
             <div className="mt-3">
               <p><strong>Total Paid by Cash: </strong>{totalCash} </p>
               <p><strong>Total Paid by Visa: </strong>{totalVisa} </p>
